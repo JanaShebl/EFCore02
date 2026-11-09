@@ -18,5 +18,6 @@ namespace EFCore02.Models
         [MaxLength(150)]
         public string? Company { get; set; }
         public bool isVerified { get; set; }
+        public OrganizerProfile organizerProfile { get; set; }
     }
 }
