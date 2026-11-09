@@ -11,12 +11,12 @@ namespace EFCore02.Models
     [Table("EventOrganizers")]
     public class Organizer
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         [Required]
         [MaxLength(100)]
-        public string name { get; set; }
+        public string Name { get; set; }
         [MaxLength(150)]
-        public string? company { get; set; }
+        public string? Company { get; set; }
         public bool isVerified { get; set; }
     }
 }
