@@ -32,6 +32,7 @@ namespace EFCore02.Models
         [MaxLength(20)]
         [Column("ZipCode")]
         public string PostalCode { get; set; }
+        public Badge Badge { get; set; }
 
     }
 }

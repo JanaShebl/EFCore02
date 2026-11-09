@@ -13,7 +13,6 @@ namespace EFCore02.Models
         public string Website { get; set; }
         public string Logo { get; set; }
         public int OrganizerId { get; set; }
-        public Organizer organizer { get; set; }
-
+        public Organizer Organizer { get; set; }
     }
 }
